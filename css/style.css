@@ -130,3 +130,67 @@ body {
     color: white; 
     margin-top: 50px; 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Secção de Partilha */
+.share-section {
+    padding: 30px;
+    text-align: center;
+    background: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.share-section h4 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.share-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap; /* Garante que os botões baixam em ecrãs pequenos */
+}
+
+.share-btn {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: transform 0.2s, opacity 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.share-btn:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+}
+
+/* Cores Oficiais */
+.whatsapp { background-color: #25D366; }
+.facebook { background-color: #1877F2; }
+.twitter  { background-color: #1DA1F2; }
+
+/* Ajuste para mobile */
+@media (max-width: 600px) {
+    .share-btn {
+        width: 100%; /* Botões ocupam a largura toda no telemóvel */
+        justify-content: center;
+    }
+}
