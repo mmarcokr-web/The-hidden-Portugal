@@ -87,7 +87,7 @@ img {
     figcaption{
         font-size: 1.5rem;
         text-align: center;
-
+        justify-content: center;
     }
 
     .post-hero {
