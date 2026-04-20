@@ -256,3 +256,9 @@ body {
 .submit-btn:hover {
     background-color: #ff6b6b; /* Muda para o salmão do logo no hover */
 }
+
+
+
+.description p {
+    padding: 5px;
+}
