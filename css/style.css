@@ -8,6 +8,20 @@
     color: #a74230;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body { 
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
     line-height: 1.6; 
@@ -261,4 +275,64 @@ body {
 
 .description p {
     padding: 5px;
+    
+}
+
+
+
+/*---------------------------------------------------------------------------------*/
+
+
+/* About */
+
+.about-me-section {
+    padding: 30px 20px;
+}
+
+/* Título de introdução com letras maiores */
+.about-intro p {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+/* Corpo do texto principal */
+.about-body p, .about-closing p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* O cartão de destaque da tua missão (Mantra) */
+.mission-highlight-card {
+    background: #fdfdfd;
+    border-left: 6px solid #ff6b6b; /* Usa a cor do "Hidden" */
+    padding: 30px;
+    margin: 40px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.mission-text {
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 500;
+    color: #1a1a1a;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Ajustes Responsivos para Desktop */
+@media (min-width: 900px) {
+    .about-me-section {
+        max-width: 750px; /* Largura ideal para leitura */
+        margin: 0 auto;
+    }
+
+    .mission-text {
+        font-size: 1.6rem;
+    }
 }
