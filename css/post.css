@@ -152,6 +152,8 @@ img {
 .galeria-vertical figure {
     margin: 0;
     width: 100%; /* Garante que o contentor da foto ocupa a largura total */
+    border: 1px solid #c0afaf;
+    border-radius: 10px;
 }
 
 .galeria-vertical img {
